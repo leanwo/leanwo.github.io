@@ -1,0 +1,195 @@
+:root {
+    --default-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+        Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+        "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+        "Source Han Sans CN", sans-serif;
+}
+
+.main-container {
+    overflow: hidden;
+}
+
+.main-container,
+.main-container * {
+    box-sizing: border-box;
+}
+
+input,
+select,
+textarea,
+button {
+    outline: 0;
+}
+
+.main-container {
+    position: relative;
+    width: 320px;
+    height: 568px;
+    margin: 0 auto;
+    background: #39244d;
+    overflow: hidden;
+}
+
+.rectangle {
+    position: relative;
+    width: 238px;
+    height: 390px;
+    margin: 93px 0 0 42px;
+    background: #49365c;
+    overflow: visible auto;
+    border-radius: 20px;
+}
+
+.button {
+    position: relative;
+    width: 209px;
+    height: 35px;
+    margin: 335px 0 0 15px;
+    cursor: pointer;
+    background: #2b103b;
+    border: 2px solid #2b103b;
+    z-index: 1;
+    border-radius: 20px;
+}
+
+.button:hover {
+    background-color: transparent;
+    color: #2b103b;
+}
+.cadastre-se {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    position: absolute;
+    height: 38%;
+    top: 28%;
+    left: 30%;
+    color: #ffffff;
+    font-family: Inika, var(--default-font-family);
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 13px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 6;
+}
+
+.nome-completo {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    position: absolute;
+    cursor: pointer;
+    width: 98px;
+    height: 5%;
+    top: 10%;
+    left: 18%;
+    color: #ffffff;
+    font-family: Inika, var(--default-font-family);
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 13.03px;
+    text-align: left;
+    z-index: 2;
+}
+
+.line {
+    position: absolute;
+    width: 66%;
+    height: 0.2%;
+    top: 15%;
+    left: 18%;
+    background: url(../images/79bbdb9c-0583-426f-ab11-ce77afedd696.png) no-repeat center;
+    background-size: 100% 100%;
+    z-index: 10;
+}
+
+.cpf {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    position: absolute;
+    cursor: pointer;
+    width: 98px;
+    height: 5%;
+    top: 30%;
+    left: 17%;
+    color: #ffffff;
+    font-family: Inika, var(--default-font-family);
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 13.03px;
+    text-align: left;
+    z-index: 3;
+}
+
+.line-1 {
+    position: absolute;
+    width: 67%;
+    height: 0.26%;
+    top: 35%;
+    left: 17%;
+    background: url(../images/6b2d10f7-496e-4515-968d-61cd316b47f0.png) no-repeat center;
+    background-size: 100% 100%;
+    z-index: 9;
+}
+
+.email {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    position: absolute;
+    cursor: pointer;
+    width: 98px;
+    height: 5%;
+    top: 50%;
+    left: 17%;
+    color: #ffffff;
+    font-family: Inika, var(--default-font-family);
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 13.03px;
+    text-align: left;
+    z-index: 4;
+}
+
+.line-2 {
+    position: absolute;
+    width: 66.39%;
+    height: 0.26%;
+    top: 54.87%;
+    left: 16.81%;
+    background: url(../images/701361e0-b428-4683-8e0b-5e88a6849aac.png) no-repeat center;
+    background-size: 100% 100%;
+    z-index: 8;
+}
+
+.senha {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    position: absolute;
+    cursor: pointer;
+    width: 98px;
+    height: 5.38%;
+    top: 69.23%;
+    left: 17.65%;
+    color: #ffffff;
+    font-family: Inika, var(--default-font-family);
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 13.03px;
+    text-align: left;
+    z-index: 5;
+}
+
+.line-3 {
+    position: absolute;
+    width: 66.39%;
+    height: 0.26%;
+    top: 74.36%;
+    left: 16.81%;
+    background: url(../images/e55702d9-707b-42a1-886f-04c7d87faff0.png) no-repeat center;
+    background-size: 100% 100%;
+    z-index: 7;
+}
